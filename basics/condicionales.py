@@ -22,7 +22,7 @@ elif nota >= 7:
 else:
     print("Reprobado")
 
-###Condiciones multiples 
+###Condiciones multiples Andr Or not
 
 edad = 25
 tiene_licencia = True
@@ -66,3 +66,9 @@ elif tiene_dinero:
     print("Puedes salir a divertirte")
 else:
     print("No tienes dinero para salir")
+
+###Condicion de ternaria 
+edad = 20
+mensaje = "Eres mayor de edad" if edad >= 18 else "Eres menor de edad"
+print(mensaje)
+
